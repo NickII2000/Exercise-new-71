@@ -15,5 +15,6 @@ const height = box.scrollHeight;
 console.log(width, height);
 
 btn.addEventListener('click', () => {
-    box.style.height = box.scrollHeight + 'px';
+    // box.style.height = box.scrollHeight + 'px';
+    console.log(box.scrollTop);
 });
