@@ -20,3 +20,7 @@ btn.addEventListener('click', () => {
 });
 
 console.log(box.getBoundingClientRect().top);
+
+const style = window.getComputedStyle(box);
+
+console.log(style.display);
