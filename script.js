@@ -18,3 +18,5 @@ btn.addEventListener('click', () => {
     // box.style.height = box.scrollHeight + 'px';
     console.log(box.scrollTop);
 });
+
+console.log(box.getBoundingClientRect().top);
