@@ -27,3 +27,6 @@ console.log(style.display);
 
 console.log(document.documentElement.clientWidth);
 console.log(document.documentElement.scrollTop);
+
+window.scrollBy(100, 200);
+window.scrollTo(0, 0);
