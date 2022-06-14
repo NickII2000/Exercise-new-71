@@ -24,3 +24,6 @@ console.log(box.getBoundingClientRect().top);
 const style = window.getComputedStyle(box);
 
 console.log(style.display);
+
+console.log(document.documentElement.clientWidth);
+console.log(document.documentElement.scrollTop);
